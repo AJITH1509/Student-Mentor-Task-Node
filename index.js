@@ -27,7 +27,7 @@ console.log("Mongo is connected !!!  ");
 
 app.use(express.json());
 app.get("/", (req, res) => {
-  res.send("vanakamda mapla");
+  res.send("Hi welcome to student mentor Task");
 });
 
 // API endpoint to create mentor
